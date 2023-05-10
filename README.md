@@ -2,24 +2,24 @@
 
 ## Screenshots
 
-![]('./screenshots/screenshot_1.png')
-![]('./screenshots/screenshot_2.png')
+![](./screenshots/screenshot_1.png)
+![](./screenshots/screenshot_2.png)
 
 ## Plugins
-    - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
-    - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
-    - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-    - [bufferline](https://github.com/akinsho/bufferline.nvim)
-    - [vim-bbye](https://github.com/moll/vim-bbye)
-    - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
-    - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
-    - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-    - [mason](https://github.com/williamboman/mason.nvim)
-    - [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim)
-    - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-    - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
-    - [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
-    - [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
+- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [bufferline](https://github.com/akinsho/bufferline.nvim)
+- [vim-bbye](https://github.com/moll/vim-bbye)
+- [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [mason](https://github.com/williamboman/mason.nvim)
+- [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim)
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
 
 ## Shortcuts
 ### Movement
