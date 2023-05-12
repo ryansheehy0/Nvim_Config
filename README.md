@@ -74,7 +74,7 @@
 |------------------------|----------|
 | Turn table mode on/off | \tm      |
 | Format selected text   | ctrl + f |
-| Format file            | <f3>     |
+| Format file            | f3       |
 
 ### NvimLSP
 |                                  |           |
@@ -84,8 +84,8 @@
 | Jump to definition               | gd        |
 | Show errors/warnings             | gl        |
 | move to next, prev error/warning | ],[ + d   |
-| See code actions                 | <f4>      |
-| Rename all references            | <f3>      |
+| See code actions                 | f4        |
+| Rename all references            | f3        |
 
 ### Autocompletion
 |                   |          |
