@@ -15,12 +15,9 @@ local options = {noremap = true, silent = true}
 -- Nvimtree
 	vim.keymap.set('n', '<C-b>', ':NvimTreeToggle<CR>', options)
 
--- Toggle terminal 
-	vim.keymap.set('n', '<C-t>', ':botright split term://bash<CR>', options)
-
 -- Buffers
-	vim.keymap.set('n', '<S-l>', ':BufferLineCycleNext<CR>', options)
-	vim.keymap.set('n', '<S-h>', ':BufferLineCyclePrev<CR>', options)
+	vim.keymap.set('n', '<S-l>', ':mkview | BufferLineCycleNext<CR>', options)
+	vim.keymap.set('n', '<S-h>', ':mkview | BufferLineCyclePrev<CR>', options)
 	-- Saving and closing
 		vim.keymap.set('n', '<C-w>', ':w! | mkview | Bdelete!<CR>', options)
 
