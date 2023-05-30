@@ -13,6 +13,7 @@
 - [vim-bbye](https://github.com/moll/vim-bbye)
 - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
+- [LanguageTool](https://github.com/vigoux/LanguageTool.nvim)
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
     - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
     - [mason](https://github.com/williamboman/mason.nvim)
@@ -23,6 +24,7 @@
 
 ## Shortcuts
 ### Movement
+
 |                                               |                        |
 |-----------------------------------------------|------------------------|
 | Move focus to left, down, up, or right window | ctrl + h,j,k,l         |
@@ -32,12 +34,14 @@
 | Move to left, or right buffer                 | shift + h,j            |
 
 ### Folding by indentation
+
 |            |       |
 |------------|-------|
 | Close fold | zc    |
 | Open fold  | enter |
 
 ### Spelling 
+
 |                                   |              |
 |-----------------------------------|--------------|
 | Add misspelled work to dictionary | zg           |
@@ -45,6 +49,7 @@
 | See spelling suggestions          | z=           |
 
 ### Saving and Closing
+
 |                       |          |
 |-----------------------|----------|
 | Save                  | :w       |
@@ -53,6 +58,7 @@
 | Close buffer          | :Bd      |
 
 ### NvimTree
+
 |                                                         |           |
 |---------------------------------------------------------|-----------|
 | Hide and un-hide nvimtree                               | ctrl + b  |
@@ -70,6 +76,7 @@
 | Paste                                                   | p         |
 
 ### Formating
+
 |                        |          |
 |------------------------|----------|
 | Turn table mode on/off | \tm      |
@@ -77,6 +84,7 @@
 | Format file            | f3       |
 
 ### NvimLSP
+
 |                                  |           |
 |----------------------------------|-----------|
 | Display hover info               | shift + k |
@@ -88,6 +96,7 @@
 | Rename all references            | f3        |
 
 ### Autocompletion
+
 |                   |          |
 |-------------------|----------|
 | Confirm selection | ctrl + y |

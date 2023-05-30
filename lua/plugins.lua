@@ -39,7 +39,7 @@ return require('packer').startup(function(use)
 				{'L3MON4D3/LuaSnip'},     -- Required
 			}
 		}
-		use 'dhruvasagar/vim-table-mode'
+	use 'dhruvasagar/vim-table-mode'
 
   if packer_bootstrap then
     require('packer').sync()

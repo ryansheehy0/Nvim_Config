@@ -1,10 +1,10 @@
 local options = {noremap = true, silent = true}
 
 -- Window navigation
-	vim.keymap.set('n', '<C-h>', '<C-w>h', options)
-	vim.keymap.set('n', '<C-j>', '<C-w>j', options)
-	vim.keymap.set('n', '<C-k>', '<C-w>k', options)
-	vim.keymap.set('n', '<C-l>', '<C-w>l', options)
+	vim.keymap.set('n', '<C-h>', ':mkview<CR> <C-w>h', options)
+	vim.keymap.set('n', '<C-j>', ':mkview<CR> <C-w>j', options)
+	vim.keymap.set('n', '<C-k>', ':mkview<CR> <C-w>k', options)
+	vim.keymap.set('n', '<C-l>', ':mkview<CR> <C-w>l', options)
 
 -- Resize with arrows
 	vim.keymap.set('n', '<C-Up>', ':resize +2<CR>', options)
