@@ -5,6 +5,7 @@ local options = {noremap = true, silent = true}
 	vim.keymap.set('n', '<C-j>', ':mkview<CR> <C-w>j', options)
 	vim.keymap.set('n', '<C-k>', ':mkview<CR> <C-w>k', options)
 	vim.keymap.set('n', '<C-l>', ':mkview<CR> <C-w>l', options)
+	-- When there is no buffer it doesn't run Ctrl + w then h
 
 -- Resize with arrows
 	vim.keymap.set('n', '<C-Up>', ':resize +2<CR>', options)
@@ -13,7 +14,7 @@ local options = {noremap = true, silent = true}
 	vim.keymap.set('n', '<C-Right>', ':vertical resize -2<CR>', options)
 
 -- Nvimtree
-	vim.keymap.set('n', '<C-b>', ':NvimTreeToggle<CR>', options)
+	vim.keymap.set('n', '<C-b>', ':mkview | NvimTreeToggle<CR>', options)
 
 -- Buffers
 	vim.keymap.set('n', '<S-l>', ':mkview | BufferLineCycleNext<CR>', options)

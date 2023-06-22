@@ -25,13 +25,14 @@
 ## Shortcuts
 ### Movement
 
-|                                               |                        |
-|-----------------------------------------------|------------------------|
-| Move focus to left, down, up, or right window | ctrl + h,j,k,l         |
-| Resize window                                 | ctrl + arrow keys      |
-| New terminal                                  | :term                  |
-| Exit from terminal mode                       | ctrl + \ then ctrl + n |
-| Move to left, or right buffer                 | shift + h,j            |
+|                                                       |                        |
+|-------------------------------------------------------|------------------------|
+| Move focus to left, down, up, or right window         | ctrl + h,j,k,l         |
+| When there is no buffer it doesn't allow you to move. | :q then ctrl + h,j,k,l |
+| Resize window                                         | ctrl + arrow keys      |
+| New terminal                                          | :term                  |
+| Exit from terminal mode                               | ctrl + \ then ctrl + n |
+| Move to left, or right buffer                         | shift + h,j            |
 
 ### Folding by indentation
 
