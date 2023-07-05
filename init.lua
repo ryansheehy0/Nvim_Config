@@ -24,7 +24,7 @@ require('plugin_config')
 	-- tabs/indentation
 		vim.opt.tabstop = 2
 		vim.opt.shiftwidth = 2
-		vim.opt.expandtab = false
+		vim.opt.expandtab = true -- Use spaces instead of tab characters
 	-- Auto scrolls when there are 8 lines ontop or below the cursor
 		vim.o.scrolloff = 8
 	-- No swap files
